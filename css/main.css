@@ -1,0 +1,217 @@
+/*
+ - prosignia.net - main.css
+ - $Version: 2.0.0.0$
+ - $Revision: 21 $
+ - $livemod: 340 $
+ - $Date: 2010-03-17 01:43:12 +0000 (Wed, 17 Mar 2010) $
+ - $Copyright: (c) 2010 Musaul Karim. All rights reserved $
+ - http://musaul.net/
+ -
+*/
+
+@font-face
+{
+	font-family: MkTrebuchetBI;
+	font-weight:bold;
+	font-style:italic;
+	src: local("Trebuchet MS Bold Italic"),url("/_common/fonts/Trebuchet_MS_Bold_Italic.ttf");
+}
+
+@font-face
+{
+	font-family: MkRadis;
+	src: url("/_common/fonts/RadisSans-medium.otf");
+}
+
+@font-face
+{
+	font-family: MkTrebuchet;
+	src: local("Trebuchet MS"),url("/_common/fonts/Trebuchet_MS.ttf");
+}
+
+@font-face
+{
+	font-family: MkCentury;
+	src: local("Century Gothic"),url("/_common/fonts/gothic.ttf");
+}
+
+
+
+
+
+
+
+body
+{
+	color:rgb(100,110,120);
+}
+
+a
+{
+	color:rgb(100,110,120);
+	text-decoration:underline;
+}
+a:hover
+{
+	color:rgb(255,90,0);
+	text-decoration:underline;
+}
+
+
+
+
+
+#header h1, #header ul, #mainbody, #footer
+{
+	width:720px;
+	margin:0 auto;
+	padding-left:20px;
+	padding-right:20px;
+}
+
+#header h1 a, ul#menu li, ul#menu li a, #footer, #footer a
+{
+	color:rgb(110,120,130);
+	text-decoration:none;
+}
+
+
+
+#header
+{
+	/*
+	background-color:rgb(47,47,38);
+	background-image:url('/_common/img/gradient_bg.png');
+	background-repeat:repeat-x;
+	*/
+}
+
+#header h1
+{
+	display:block;
+	padding-top:80px;
+	padding-bottom:0;
+	font:italic normal bold 50px MkTrebuchetBI,"Trebuchet MS",sans-serif;
+	text-shadow:0 0 1px rgb(20,20,10);
+}
+#header h1 a:hover
+{
+	text-decoration:none;
+	color:rgb(160,170,180);
+	text-shadow:0 0 1px rgb(150,160,170);
+	/* color:rgb(80,90,100); */
+}
+
+
+
+ul#menu
+{
+	text-align:right;
+	margin-top:-15px;
+}
+ul#menu li
+{
+	display:inline;
+	margin-left:20px;
+}
+ul#menu li, ul#menu li a
+{
+	text-decoration:none;
+	font:15px MkRadis,"Century Gothic",futura,"URW Gothic L",verdana,"Bitstream Vera Sans",helvetica,arial,sans-serif;
+}
+ul#menu li a:hover
+{
+	color:rgb(50,60,70);
+	border-bottom:5px solid rgb(255,70,0);
+}
+ul#menu span.curpage
+{
+	color:rgb(255,70,0);
+}
+
+
+
+#footer
+{
+	margin-bottom:50px;
+	padding:20px;
+	border-top:1px solid rgb(200,210,220);
+}
+#footer, #footer a
+{
+	font:10px verdana,"Bitstream Vera Sans",helvetica,arial,sans-serif;
+	color:rgb(170,180,190);
+}
+#footer a
+{
+	border-bottom:1px dotted;
+}
+#footer a:hover
+{
+	color:rgb(255,90,0);
+	text-decoration:underline;
+	border-bottom:none;
+}
+#footer span#contact
+{
+	display:block
+	width:35%;
+	float:right;
+	text-align:right;
+	margin:0;
+	padding:0;
+}
+
+
+
+
+
+#mainbody
+{
+	min-height:300px;
+	padding:50px 20px;
+}
+
+#mainbody ul
+{
+	margin: 10px 100px;
+}
+#mainbody ul li
+{
+	line-height:1.8em;
+	color:rgb(130,200,100);
+}
+#mainbody ul li h3
+{
+	color:rgb(80,90,100);
+	font-size:inherit;
+	font-weight:inherit;
+	margin:0;
+	padding:0;
+}
+
+
+.c
+{
+	text-align:center;
+}
+
+.empara
+{
+	font:15px MkCentury,"Century Gothic",futura,"URW Gothic L",verdana,"Bitstream Vera Sans",helvetica,arial,sans-serif;
+	line-height:28px;
+	color:rgb(30,40,60);
+}
+.empara, .empara a
+{
+}
+
+
+h2
+{
+	font:bold 20px MkRadis,"Century Gothic",futura,"URW Gothic L",verdana,"Bitstream Vera Sans",helvetica,arial,sans-serif;
+	color:rgb(170,180,190);
+}
+
+
+

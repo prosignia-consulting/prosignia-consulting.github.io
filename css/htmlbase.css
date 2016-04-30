@@ -1,0 +1,63 @@
+/*
+ - CssCore htmlbase.css
+ - $Version: 0.1.0
+ - $Revision: 21 $
+ - $livemod: 340 $
+ - $Date: 2010-03-17 01:43:12 +0000 (Wed, 17 Mar 2010) $
+ - $Copyright: (c) 2008-2009 Musaul Karim. All rights reserved $
+ - http://musaul.net/
+ -
+ - Description:
+ - This overrides the default browser styles to provide *theoretically* consistent styles in all browsers.
+ -
+*/
+
+
+html
+{
+	width:100%;
+}
+
+body
+{
+	display:block;
+}
+
+body, input, textarea
+{
+	font:12px verdana, "Bitstream Vera Sans", helvetica, arial, sans-serif;
+}
+
+html,body,fieldset,div,blockquote,pre,dl,li,form,input
+{
+	margin:0;
+	padding:0;
+}
+p { margin:1em 0; line-height:2em; }
+ul,ol
+{
+	margin:0 0 0 20px;
+	padding:0;
+}
+dt { font-weight:bold; }
+dd { -moz-margin-start:0px; margin:.2em 1em .5em 1em; }
+
+h1,h2,h3,h4,h5,h6
+{
+	display:block;
+	font-weight:bold;
+	padding:2em 0 0.5em 0;
+	margin:0;
+}
+h1 { font-size:1.8em; }
+h2 { font-size:1.5em; }
+h3 { font-size:1.3em; }
+h4 { font-size:1.2em; }
+h5 { font-size:1.1em; }
+h6 { font-size:1em;   }
+
+
+
+a:hover, a:focus { text-decoration:underline; }
+a img { border:none }
+address { font-style:normal }

@@ -4,40 +4,13 @@
  - $Revision: 21 $
  - $livemod: 340 $
  - $Date: 2010-03-17 01:43:12 +0000 (Wed, 17 Mar 2010) $
- - $Copyright: (c) 2010 Musaul Karim. All rights reserved $
+ - $Copyright: (c) 2016 Musaul Karim. All rights reserved $
  - http://musaul.net/
  -
 */
 
-@font-face
-{
-	font-family: MkTrebuchetBI;
-	font-weight:bold;
-	font-style:italic;
-	src: local("Trebuchet MS Bold Italic"),url("/_common/fonts/Trebuchet_MS_Bold_Italic.ttf");
-}
 
-@font-face
-{
-	font-family: MkRadis;
-	src: url("/_common/fonts/RadisSans-medium.otf");
-}
-
-@font-face
-{
-	font-family: MkTrebuchet;
-	src: local("Trebuchet MS"),url("/_common/fonts/Trebuchet_MS.ttf");
-}
-
-@font-face
-{
-	font-family: MkCentury;
-	src: local("Century Gothic"),url("/_common/fonts/gothic.ttf");
-}
-
-
-
-
+@import url(https://fonts.googleapis.com/css?family=Lato:300italic);
 
 
 
@@ -91,7 +64,7 @@ a:hover
 	display:block;
 	padding-top:80px;
 	padding-bottom:0;
-	font:italic normal bold 50px MkTrebuchetBI,"Trebuchet MS",sans-serif;
+	font:italic normal bold 50px Lato,sans-serif;
 	text-shadow:0 0 1px rgb(20,20,10);
 }
 #header h1 a:hover
